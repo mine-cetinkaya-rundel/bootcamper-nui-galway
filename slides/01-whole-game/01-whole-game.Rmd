@@ -1,0 +1,480 @@
+---
+title: "The whole game <br> `r emo::ji('space_invader')`"
+output:
+  xaringan::moon_reader:
+    css: ["../slides-style.css", "../xaringan-themer.css"]
+    lib_dir: libs
+    nature:
+      highlightStyle: solarized-light
+      highlightLines: true
+      countIncrementalSlides: false
+      ratio: "16:9"
+      slideNumberFormat: |
+        <div class="progress-bar-container">
+          <div class="progress-bar" style="width: calc(%current% / %total% * 100%);">
+          </div>
+        </div>
+---
+
+```{r child = "../setup.Rmd"}
+```
+
+```{r packages, echo=FALSE, message=FALSE, warning=FALSE}
+library(tidyverse)
+library(nycflights13)
+```
+
+class: middle
+
+# Welcome!
+
+---
+
+## About me
+
+.pull-left[
+```{r echo=FALSE,out.width="80%",fig.align="center"}
+knitr::include_graphics("img/mine_circle.png")
+```
+]
+.pull-right[
+__Mine Çetinkaya-Rundel__
+- Senior Lecturer, University of Edinburgh
+- Data Scientist & Professional Educator, RStudio
+- Associate Professor of the Practice, Duke University
+
+.midi[
+`r emo::ji("link")`  [mine-cr.com](http://mine-cr.com)  
+`r emo::ji("writing_hand")`  [citizen-statistician.org](http://citizen-statistician.org)  
+`r emo::ji("bird")`  [@minebocek](https://twitter.com/minebocek)  
+`r emo::ji("radio_button")`  she/her  
+]
+]
+
+---
+
+class: center, middle
+
+## About you?
+
+---
+
+## Logistics
+
+- Everything in one place: [rstd.io/bootcamper](http://rstd.io/bootcamper)
+- RStudio Cloud: [rstd.io/bootcamper-cloud](https://rstd.io/bootcamper-cloud)
+- Asking for help: Type in chat (but if I don't see it, feel free to interrupt!)
+
+---
+
+class: middle
+
+# Software
+
+---
+
+```{r echo=FALSE, out.width="80%"}
+knitr::include_graphics("img/excel.png")
+```
+
+---
+
+```{r echo=FALSE, out.width="50%"}
+knitr::include_graphics("img/r.png")
+```
+
+---
+
+```{r echo=FALSE, out.width="80%"}
+knitr::include_graphics("img/rstudio.png")
+```
+
+---
+
+class: middle
+
+# Data science life cycle
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/data-science-cycle-01.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/data-science-cycle-02.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/data-science-cycle-03.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/data-science-cycle-04.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/data-science-cycle-05.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/data-science-cycle-06.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/data-science-cycle-07.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/data-science-cycle-08.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/data-science-cycle-09.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/data-science-cycle-10.jpeg")
+```
+
+---
+
+```{r echo=FALSE, out.width="90%"}
+knitr::include_graphics("img/rmarkdown.png")
+```
+
+---
+
+class: middle
+
+# Let's dive in!
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/unvotes-01.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/unvotes-02.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/unvotes-03.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/unvotes-04.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/unvotes-05.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/unvotes-06.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/unvotes-07.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/unvotes-08.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/unvotes-09.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/unvotes-10.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/unvotes-11.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/unvotes-12.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/unvotes-13.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/unvotes-14.jpeg")
+```
+
+---
+
+.center[
+.large[
+[minecr.shinyapps.io/unvotes](https://minecr.shinyapps.io/unvotes/)
+]
+]
+
+```{r echo=FALSE, out.width="75%"}
+knitr::include_graphics("img/unvotes-15.jpeg")
+```
+
+---
+
+.your-turn[
+
+- Go to [rstd.io/dsbox-cloud](https://rstd.io/dsbox-cloud) and join the workspace.
+- On RStudio Cloud, start the assignment called `AE 01a - UN Votes` or `AE 01a - COVID`.
+- In the Files pane in the bottom right corner, spot the file called `unvotes.Rmd` (or `covid.Rmd`). Open it, and then click on the "Knit" button.
+- Go back to the file and change your name on top (in the `yaml` -- we'll talk about what this means later) and knit again.
+- Change the country names to those you're interested in. Your spelling and capitalization should match how the countries appear in the data, so take a peek at the Appendix to confirm spelling. Knit again. Voila, your first data visualization!
+]
+
+```{r echo=FALSE}
+countdown(minutes = 10)
+```
+
+---
+
+class: middle
+
+# Data in the wild
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/gender-pronouns.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/trump-tweets.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/covid.jpeg")
+```
+
+---
+
+```{r echo=FALSE}
+knitr::include_graphics("img/code-examples.jpeg")
+```
+
+---
+
+class: middle
+
+.huge-blue[R]
+
+---
+
+## R
+
+- R can be used as a calculator.
+```{r}
+8738787213 / 1653
+```
+
+- The most commonly used data type in R is data frames, where each row represents an observation, and each column a variable.
+
+```{r echo=FALSE}
+head(presidential) %>% as.data.frame()
+```
+
+---
+
+## R
+
+- We use the `$` operator to access a variable within a data frame.
+
+```{r}
+presidential$name
+```
+
+- Functions are (often) verbs, followed by what they will be applied to in parentheses.
+
+```{r eval=FALSE}
+do_this(to_this)
+do_that(to_this, to_that, with_those)
+```
+
+---
+
+## R
+
+- In R, the fundamental unit of shareable code is the package.
+--
+
+- As of April 2020, there are over 15,000 packages available on the **C**omprehensive **R** **A**rchive **N**etwork (CRAN), the public clearing house for R packages. Source: [r-pkg.org](https://www.r-pkg.org/).
+--
+
+- This huge variety of packages is one reason why R is so successful: the chances are that someone has already solved a problem that you’re working on, and you can benefit from their work by downloading their package.
+--
+
+- Using R packages:
+  - Install them from CRAN with `install.packages("x")`
+  - Use them in R with `library(x)`
+  - Get help on them with package `?x` and `help(package = "x")`
+
+---
+
+class: middle
+
+.huge-blue[RStudio]
+
+---
+
+## RStudio
+
+```{r echo=FALSE, out.width="80%", fig.align="center"}
+knitr::include_graphics("img/rstudio-anatomy.png")
+```
+
+---
+
+class: middle
+
+.huge-blue[R Markdown]
+
+---
+
+## R Markdown
+
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("img/rmarkdown-anatomy.png")
+```
+
+---
+
+## How will we use R Markdown?
+
+- Every "your turn" exercise is an R Markdown document
+- You'll always have a template R Markdown document to start with
+- The amount of scaffolding in the template will decrease over the bootcamp
+
+---
+
+class: middle
+
+.huge-blue[tidyverse]
+
+```{r echo=FALSE,out.width="15%", fig.align="right"}
+knitr::include_graphics("img/tidyverse.png")
+```
+
+---
+
+## tidyverse
+
+.pull-left[
+The tidyverse is an opinionated collection of R packages designed for data science. 
+
+All packages share an underlying design philosophy, grammar, and data structures.
+]
+.pull-right[
+```{r echo=FALSE}
+knitr::include_graphics("img/tidyverse-packages.png")
+```
+]
+
+
+---
+
+class: middle
+
+.huge-blue[Getting help in R]
+
+---
+
+## Reading help files
+
+.pull-left[
+You can get help on any function by typing the function name in the Console with a `?` before it:
+
+```{r eval=FALSE}
+?mean
+```
+]
+.pull-right[
+```{r echo=FALSE, out.width="100%", fig.align="center"}
+knitr::include_graphics("img/r-help.png")
+```
+]
+
+.xsmall[
+Source: http://socviz.co/appendix.html#a-little-more-about-r
+]
+
+---
+
+## Package help
+
+- **Many** modern packages have user friendly web pages with function descriptions, code examples, and vignettes (problem-oriented long form articles that walk you through features of the package), e.g. [ggplot2.tidyverse.org](https://ggplot2.tidyverse.org/).
+--
+
+- **All** packages on CRAN have a dedicated with high-level package documentation such as a description, dependencies, etc. as well as a link to a PDF reference manual, e.g.  [cran.r-project.org/web/packages/ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html).
+--
+
+- **Some** packages also have cheatsheets which can be quite handy! [rstudio.com/resources/cheatsheets](https://rstudio.com/resources/cheatsheets/)
+  
+.alert[
+I recommend using the package websites when available since they display output of code in the examples whereas the help in R and reference manual does not.
+]
+
+---
+
+.your-turn[
+Take a few minutes in breakout sessions to come up with a list of 1-2 questions you would like clarified before we move on to the next module.
+]
+
+```{r echo=FALSE}
+countdown(minutes = 5)
+```

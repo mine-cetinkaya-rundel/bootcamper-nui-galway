@@ -1,0 +1,39 @@
+```{r setup, include=FALSE}
+# R options
+options(
+  htmltools.dir.version = FALSE,
+  dplyr.print_min = 6, 
+  dplyr.print_max = 6,
+  width = 100
+  )
+# figure height, width, dpi
+knitr::opts_chunk$set(echo = TRUE, 
+                      fig.width = 6, 
+                      fig.asp = 0.618,
+                      out.width = "100%",
+                      fig.align = "center",
+                      dpi = 300)
+# set seed
+set.seed(1234)
+# fontawesome
+htmltools::tagList(rmarkdown::html_dependency_font_awesome())
+# magick
+dev.off <- function(){
+  invisible(grDevices::dev.off())
+}
+# countdown
+library(countdown)
+# conflicted
+library(conflicted)
+conflict_prefer("filter", "dplyr")
+```
+
+layout: true
+  
+<div class="my-footer">
+<span>
+<a href="https://rstd.io/bootcamper" target="_blank">rstd.io/bootcamper</a>
+</span>
+</div> 
+
+---

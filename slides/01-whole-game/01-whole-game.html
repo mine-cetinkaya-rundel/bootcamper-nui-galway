@@ -1,0 +1,558 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+  <head>
+    <title>The whole game   👾</title>
+    <meta charset="utf-8" />
+    <script src="libs/header-attrs/header-attrs.js"></script>
+    <link href="libs/font-awesome/css/all.css" rel="stylesheet" />
+    <link href="libs/font-awesome/css/v4-shims.css" rel="stylesheet" />
+    <link href="libs/countdown/countdown.css" rel="stylesheet" />
+    <script src="libs/countdown/countdown.js"></script>
+    <link rel="stylesheet" href="../slides-style.css" type="text/css" />
+    <link rel="stylesheet" href="../xaringan-themer.css" type="text/css" />
+  </head>
+  <body>
+    <textarea id="source">
+class: center, middle, inverse, title-slide
+
+# The whole game <br> 👾
+
+---
+
+
+
+
+
+layout: true
+  
+&lt;div class="my-footer"&gt;
+&lt;span&gt;
+&lt;a href="https://rstd.io/bootcamper" target="_blank"&gt;rstd.io/bootcamper&lt;/a&gt;
+&lt;/span&gt;
+&lt;/div&gt; 
+
+---
+
+
+
+class: middle
+
+# Welcome!
+
+---
+
+## About me
+
+.pull-left[
+&lt;img src="img/mine_circle.png" width="80%" style="display: block; margin: auto;" /&gt;
+]
+.pull-right[
+__Mine Çetinkaya-Rundel__
+- Senior Lecturer, University of Edinburgh
+- Data Scientist &amp; Professional Educator, RStudio
+- Associate Professor of the Practice, Duke University
+
+.midi[
+🔗  [mine-cr.com](http://mine-cr.com)  
+✍️  [citizen-statistician.org](http://citizen-statistician.org)  
+🐦  [@minebocek](https://twitter.com/minebocek)  
+🔘  she/her  
+]
+]
+
+---
+
+class: center, middle
+
+## About you?
+
+---
+
+## Logistics
+
+- Everything in one place: [rstd.io/bootcamper](http://rstd.io/bootcamper)
+- RStudio Cloud: [rstd.io/bootcamper-cloud](https://rstd.io/bootcamper-cloud)
+- Asking for help: Type in chat (but if I don't see it, feel free to interrupt!)
+
+---
+
+class: middle
+
+# Software
+
+---
+
+&lt;img src="img/excel.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/r.png" width="50%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/rstudio.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: middle
+
+# Data science life cycle
+
+---
+
+&lt;img src="img/data-science-cycle-01.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/data-science-cycle-02.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/data-science-cycle-03.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/data-science-cycle-04.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/data-science-cycle-05.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/data-science-cycle-06.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/data-science-cycle-07.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/data-science-cycle-08.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/data-science-cycle-09.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/data-science-cycle-10.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/rmarkdown.png" width="90%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: middle
+
+# Let's dive in!
+
+---
+
+&lt;img src="img/unvotes-01.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/unvotes-02.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/unvotes-03.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/unvotes-04.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/unvotes-05.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/unvotes-06.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/unvotes-07.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/unvotes-08.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/unvotes-09.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/unvotes-10.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/unvotes-11.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/unvotes-12.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/unvotes-13.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/unvotes-14.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+.center[
+.large[
+[minecr.shinyapps.io/unvotes](https://minecr.shinyapps.io/unvotes/)
+]
+]
+
+&lt;img src="img/unvotes-15.jpeg" width="75%" style="display: block; margin: auto;" /&gt;
+
+---
+
+.your-turn[
+
+- Go to [rstd.io/dsbox-cloud](https://rstd.io/dsbox-cloud) and join the workspace.
+- On RStudio Cloud, start the assignment called `AE 01a - UN Votes` or `AE 01a - COVID`.
+- In the Files pane in the bottom right corner, spot the file called `unvotes.Rmd` (or `covid.Rmd`). Open it, and then click on the "Knit" button.
+- Go back to the file and change your name on top (in the `yaml` -- we'll talk about what this means later) and knit again.
+- Change the country names to those you're interested in. Your spelling and capitalization should match how the countries appear in the data, so take a peek at the Appendix to confirm spelling. Knit again. Voila, your first data visualization!
+]
+
+<div class="countdown" id="timer_5f4d83f4" style="right:0;bottom:0;" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+
+---
+
+class: middle
+
+# Data in the wild
+
+---
+
+&lt;img src="img/gender-pronouns.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/trump-tweets.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/covid.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+&lt;img src="img/code-examples.jpeg" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: middle
+
+.huge-blue[R]
+
+---
+
+## R
+
+- R can be used as a calculator.
+
+```r
+8738787213 / 1653
+```
+
+```
+## [1] 5286623
+```
+
+- The most commonly used data type in R is data frames, where each row represents an observation, and each column a variable.
+
+
+```
+##         name      start        end      party
+## 1 Eisenhower 1953-01-20 1961-01-20 Republican
+## 2    Kennedy 1961-01-20 1963-11-22 Democratic
+## 3    Johnson 1963-11-22 1969-01-20 Democratic
+## 4      Nixon 1969-01-20 1974-08-09 Republican
+## 5       Ford 1974-08-09 1977-01-20 Republican
+## 6     Carter 1977-01-20 1981-01-20 Democratic
+```
+
+---
+
+## R
+
+- We use the `$` operator to access a variable within a data frame.
+
+
+```r
+presidential$name
+```
+
+```
+##  [1] "Eisenhower" "Kennedy"    "Johnson"    "Nixon"      "Ford"       "Carter"     "Reagan"    
+##  [8] "Bush"       "Clinton"    "Bush"       "Obama"
+```
+
+- Functions are (often) verbs, followed by what they will be applied to in parentheses.
+
+
+```r
+do_this(to_this)
+do_that(to_this, to_that, with_those)
+```
+
+---
+
+## R
+
+- In R, the fundamental unit of shareable code is the package.
+--
+
+- As of April 2020, there are over 15,000 packages available on the **C**omprehensive **R** **A**rchive **N**etwork (CRAN), the public clearing house for R packages. Source: [r-pkg.org](https://www.r-pkg.org/).
+--
+
+- This huge variety of packages is one reason why R is so successful: the chances are that someone has already solved a problem that you’re working on, and you can benefit from their work by downloading their package.
+--
+
+- Using R packages:
+  - Install them from CRAN with `install.packages("x")`
+  - Use them in R with `library(x)`
+  - Get help on them with package `?x` and `help(package = "x")`
+
+---
+
+class: middle
+
+.huge-blue[RStudio]
+
+---
+
+## RStudio
+
+&lt;img src="img/rstudio-anatomy.png" width="80%" style="display: block; margin: auto;" /&gt;
+
+---
+
+class: middle
+
+.huge-blue[R Markdown]
+
+---
+
+## R Markdown
+
+&lt;img src="img/rmarkdown-anatomy.png" width="100%" style="display: block; margin: auto;" /&gt;
+
+---
+
+## How will we use R Markdown?
+
+- Every "your turn" exercise is an R Markdown document
+- You'll always have a template R Markdown document to start with
+- The amount of scaffolding in the template will decrease over the bootcamp
+
+---
+
+class: middle
+
+.huge-blue[tidyverse]
+
+&lt;img src="img/tidyverse.png" width="15%" style="display: block; margin: auto 0 auto auto;" /&gt;
+
+---
+
+## tidyverse
+
+.pull-left[
+The tidyverse is an opinionated collection of R packages designed for data science. 
+
+All packages share an underlying design philosophy, grammar, and data structures.
+]
+.pull-right[
+&lt;img src="img/tidyverse-packages.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+
+---
+
+class: middle
+
+.huge-blue[Getting help in R]
+
+---
+
+## Reading help files
+
+.pull-left[
+You can get help on any function by typing the function name in the Console with a `?` before it:
+
+
+```r
+?mean
+```
+]
+.pull-right[
+&lt;img src="img/r-help.png" width="100%" style="display: block; margin: auto;" /&gt;
+]
+
+.xsmall[
+Source: http://socviz.co/appendix.html#a-little-more-about-r
+]
+
+---
+
+## Package help
+
+- **Many** modern packages have user friendly web pages with function descriptions, code examples, and vignettes (problem-oriented long form articles that walk you through features of the package), e.g. [ggplot2.tidyverse.org](https://ggplot2.tidyverse.org/).
+--
+
+- **All** packages on CRAN have a dedicated with high-level package documentation such as a description, dependencies, etc. as well as a link to a PDF reference manual, e.g.  [cran.r-project.org/web/packages/ggplot2](https://cran.r-project.org/web/packages/ggplot2/index.html).
+--
+
+- **Some** packages also have cheatsheets which can be quite handy! [rstudio.com/resources/cheatsheets](https://rstudio.com/resources/cheatsheets/)
+  
+.alert[
+I recommend using the package websites when available since they display output of code in the examples whereas the help in R and reference manual does not.
+]
+
+---
+
+.your-turn[
+Take a few minutes in breakout sessions to come up with a list of 1-2 questions you would like clarified before we move on to the next module.
+]
+
+<div class="countdown" id="timer_5f4d848d" style="right:0;bottom:0;" data-warnwhen="0">
+<code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
+</div>
+    </textarea>
+<style data-target="print-only">@media screen {.remark-slide-container{display:block;}.remark-slide-scaler{box-shadow:none;}}</style>
+<script src="https://remarkjs.com/downloads/remark-latest.min.js"></script>
+<script>var slideshow = remark.create({
+"highlightStyle": "solarized-light",
+"highlightLines": true,
+"countIncrementalSlides": false,
+"ratio": "16:9",
+"slideNumberFormat": "<div class=\"progress-bar-container\">   <div class=\"progress-bar\" style=\"width: calc(%current% / %total% * 100%);\">   </div> </div>"
+});
+if (window.HTMLWidgets) slideshow.on('afterShowSlide', function (slide) {
+  window.dispatchEvent(new Event('resize'));
+});
+(function(d) {
+  var s = d.createElement("style"), r = d.querySelector(".remark-slide-scaler");
+  if (!r) return;
+  s.type = "text/css"; s.innerHTML = "@page {size: " + r.style.width + " " + r.style.height +"; }";
+  d.head.appendChild(s);
+})(document);
+
+(function(d) {
+  var el = d.getElementsByClassName("remark-slides-area");
+  if (!el) return;
+  var slide, slides = slideshow.getSlides(), els = el[0].children;
+  for (var i = 1; i < slides.length; i++) {
+    slide = slides[i];
+    if (slide.properties.continued === "true" || slide.properties.count === "false") {
+      els[i - 1].className += ' has-continuation';
+    }
+  }
+  var s = d.createElement("style");
+  s.type = "text/css"; s.innerHTML = "@media print { .has-continuation { display: none; } }";
+  d.head.appendChild(s);
+})(document);
+// delete the temporary CSS (for displaying all slides initially) when the user
+// starts to view slides
+(function() {
+  var deleted = false;
+  slideshow.on('beforeShowSlide', function(slide) {
+    if (deleted) return;
+    var sheets = document.styleSheets, node;
+    for (var i = 0; i < sheets.length; i++) {
+      node = sheets[i].ownerNode;
+      if (node.dataset["target"] !== "print-only") continue;
+      node.parentNode.removeChild(node);
+    }
+    deleted = true;
+  });
+})();
+(function() {
+  "use strict"
+  // Replace <script> tags in slides area to make them executable
+  var scripts = document.querySelectorAll(
+    '.remark-slides-area .remark-slide-container script'
+  );
+  if (!scripts.length) return;
+  for (var i = 0; i < scripts.length; i++) {
+    var s = document.createElement('script');
+    var code = document.createTextNode(scripts[i].textContent);
+    s.appendChild(code);
+    var scriptAttrs = scripts[i].attributes;
+    for (var j = 0; j < scriptAttrs.length; j++) {
+      s.setAttribute(scriptAttrs[j].name, scriptAttrs[j].value);
+    }
+    scripts[i].parentElement.replaceChild(s, scripts[i]);
+  }
+})();
+(function() {
+  var links = document.getElementsByTagName('a');
+  for (var i = 0; i < links.length; i++) {
+    if (/^(https?:)?\/\//.test(links[i].getAttribute('href'))) {
+      links[i].target = '_blank';
+    }
+  }
+})();
+// adds .remark-code-has-line-highlighted class to <pre> parent elements
+// of code chunks containing highlighted lines with class .remark-code-line-highlighted
+(function(d) {
+  const hlines = d.querySelectorAll('.remark-code-line-highlighted');
+  const preParents = [];
+  const findPreParent = function(line, p = 0) {
+    if (p > 1) return null; // traverse up no further than grandparent
+    const el = line.parentElement;
+    return el.tagName === "PRE" ? el : findPreParent(el, ++p);
+  };
+
+  for (let line of hlines) {
+    let pre = findPreParent(line);
+    if (pre && !preParents.includes(pre)) preParents.push(pre);
+  }
+  preParents.forEach(p => p.classList.add("remark-code-has-line-highlighted"));
+})(document);</script>
+
+<script>
+slideshow._releaseMath = function(el) {
+  var i, text, code, codes = el.getElementsByTagName('code');
+  for (i = 0; i < codes.length;) {
+    code = codes[i];
+    if (code.parentNode.tagName !== 'PRE' && code.childElementCount === 0) {
+      text = code.textContent;
+      if (/^\\\((.|\s)+\\\)$/.test(text) || /^\\\[(.|\s)+\\\]$/.test(text) ||
+          /^\$\$(.|\s)+\$\$$/.test(text) ||
+          /^\\begin\{([^}]+)\}(.|\s)+\\end\{[^}]+\}$/.test(text)) {
+        code.outerHTML = code.innerHTML;  // remove <code></code>
+        continue;
+      }
+    }
+    i++;
+  }
+};
+slideshow._releaseMath(document);
+</script>
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+(function () {
+  var script = document.createElement('script');
+  script.type = 'text/javascript';
+  script.src  = 'https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML';
+  if (location.protocol !== 'file:' && /^https?:/.test(script.src))
+    script.src  = script.src.replace(/^https?:/, '');
+  document.getElementsByTagName('head')[0].appendChild(script);
+})();
+</script>
+  </body>
+</html>
