@@ -19,6 +19,13 @@ Schedule
 | 10:30 - 10:45 | ☕ Coffee break                                                                                                          |
 | 10:45 - 12:30 | [Visualize data](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/02-visualize-data.html)           |
 
+Prepare for the next day by recapping what you’ve learned so far:
+
+-   Complete the tutorial
+    [here](https://minecr.shinyapps.io/dsbox-01-basics)
+-   Complete `AE 02 - Bechdel + R Markdown` on RStudio Cloud
+    [here](https://rstd.io/dsbox-cloud)
+
 ### Day 2
 
 | Time          | Activity                                                                                                         |
