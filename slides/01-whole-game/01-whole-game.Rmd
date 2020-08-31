@@ -353,7 +353,7 @@ do_that(to_this, to_that, with_those)
 - In R, the fundamental unit of shareable code is the package.
 --
 
-- As of April 2020, there are over 15,000 packages available on the **C**omprehensive **R** **A**rchive **N**etwork (CRAN), the public clearing house for R packages. Source: [r-pkg.org](https://www.r-pkg.org/).
+- As of August 2020, there are over 16,000 packages available on the **C**omprehensive **R** **A**rchive **N**etwork (CRAN), the public clearing house for R packages. Source: [r-pkg.org](https://www.r-pkg.org/).
 --
 
 - This huge variety of packages is one reason why R is so successful: the chances are that someone has already solved a problem that you’re working on, and you can benefit from their work by downloading their package.
