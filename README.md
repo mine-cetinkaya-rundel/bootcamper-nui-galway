@@ -13,11 +13,11 @@ Schedule
 
 ### Day 1
 
-| Time          | Activity                                                                                                                |
-|:--------------|:------------------------------------------------------------------------------------------------------------------------|
-| 09:30 - 10:30 | [The whole game](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/01-whole-game/01-whole-game.html) |
-| 10:30 - 10:45 | ☕ Coffee break                                                                                                          |
-| 10:45 - 12:30 | [Visualize data](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/02-visualize-data.html)           |
+| Time          | Activity                                                                                                                        |
+|:--------------|:--------------------------------------------------------------------------------------------------------------------------------|
+| 09:30 - 10:30 | [The whole game](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/01-whole-game/01-whole-game.html)         |
+| 10:30 - 10:45 | ☕ Coffee break                                                                                                                  |
+| 10:45 - 12:30 | [Visualize data](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/02-visualize-data/02-visualize-data.html) |
 
 Prepare for the next day by recapping what you’ve learned so far:
 
