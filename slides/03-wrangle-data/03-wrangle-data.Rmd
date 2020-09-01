@@ -196,7 +196,7 @@ knitr::include_graphics("img/dplyr-part-of-tidyverse.png")
 - Goal for original data collection: Development of prediction models to classify a hotel booking's likelihood to be cancelled ([Antonia et al., 2019](https://www.sciencedirect.com/science/article/pii/S2352340918315191#bib5))
 - Featured in [TidyTuesday](https://github.com/rfordatascience/tidytuesday)!
 
-```{r load-data, message = FALSE, cache=TRUE}
+```{r load-data, message = FALSE}
 # From TidyTuesday: https://github.com/rfordatascience/tidytuesday/blob/master/data/2020/2020-02-11/readme.md
 hotels <- read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-02-11/hotels.csv")
 ```
