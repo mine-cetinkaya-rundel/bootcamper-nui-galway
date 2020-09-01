@@ -61,8 +61,8 @@ class: center, middle
 
 ## Logistics
 
-- Everything in one place: [rstd.io/bootcamper](http://rstd.io/bootcamper)
-- RStudio Cloud: [rstd.io/bootcamper-cloud](https://rstd.io/bootcamper-cloud)
+- Everything in one place: [bit.ly/bootcamp-nuigalway](http://bit.ly/bootcamp-nuigalway)
+- RStudio Cloud: [rstd.io/dsbox-cloud](https://rstd.io/dsbox-cloud)
 - Asking for help: Type in chat (but if I don't see it, feel free to interrupt!)
 
 ---
