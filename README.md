@@ -28,11 +28,11 @@ Prepare for the next day by recapping what you’ve learned so far:
 
 ### Day 2
 
-| Time          | Activity                                                                                                         |
-|:--------------|:-----------------------------------------------------------------------------------------------------------------|
-| 09:30 - 10:45 | [Wrangle data](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/03-wrangle-data.html), Pt. 1 |
-| 10:45 - 11:00 | ☕ Coffee break                                                                                                   |
-| 11:00 - 12:30 | [Wrangle data](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/03-wrangle-data.html), Pt. 2 |
+| Time          | Activity                                                                                                                         |
+|:--------------|:---------------------------------------------------------------------------------------------------------------------------------|
+| 09:30 - 10:45 | [Wrangle data](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/03-wrangle-data/03-wrangle-data.html), Pt. 1 |
+| 10:45 - 11:00 | ☕ Coffee break                                                                                                                   |
+| 11:00 - 12:30 | [Wrangle data](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/03-wrangle-data/03-wrangle-data.html), Pt. 2 |
 
 ### Day 3
 
