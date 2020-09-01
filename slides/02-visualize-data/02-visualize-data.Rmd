@@ -395,7 +395,7 @@ should always label your plots!
 
 ---
 
-```{r out.width="90%", warning=FALSE}
+```{r out.width="80%", warning=FALSE}
 ggplot(data = starwars, mapping = aes(x = height, y = mass)) +
   geom_point() +
   facet_grid(gender ~ .)
@@ -403,7 +403,7 @@ ggplot(data = starwars, mapping = aes(x = height, y = mass)) +
 
 ---
 
-```{r out.width="90%", warning=FALSE}
+```{r out.width="80%", warning=FALSE}
 ggplot(data = starwars, mapping = aes(x = height, y = mass)) +
   geom_point() +
   facet_grid(. ~ gender)
@@ -411,7 +411,7 @@ ggplot(data = starwars, mapping = aes(x = height, y = mass)) +
 
 ---
 
-```{r out.width="95%", warning=FALSE}
+```{r out.width="80%", warning=FALSE}
 ggplot(data = starwars, mapping = aes(x = height, y = mass)) +
   geom_point() +
   facet_wrap(~ eye_color)
@@ -494,6 +494,16 @@ ggplot(data = starwars, mapping = aes(y = height, x = gender)) +
 
 ---
 
+## Ridge plots
+
+```{r out.width="70%"}
+library(ggridges)
+ggplot(starwars, aes(x = height, y = gender, fill = gender, color = gender)) + 
+  geom_density_ridges(alpha = 0.5)
+```
+
+---
+
 class: middle
 
 # Visualizing categorical data
@@ -533,7 +543,7 @@ starwars <- starwars %>%
 
 ## Segmented bar plots, counts
 
-```{r out.width="70%"}
+```{r out.width="70%", fig.asp = 0.5}
 ggplot(data = starwars, 
        mapping = aes(x = gender, fill = hair_color2)) +
   geom_bar() +
@@ -544,7 +554,7 @@ ggplot(data = starwars,
 
 ## Segmented bar plots, proportions
 
-```{r out.width="70%"}
+```{r out.width="70%", fig.asp = 0.5}
 ggplot(data = starwars, 
        mapping = aes(x = gender, fill = hair_color2)) +
   geom_bar(position = "fill") +
@@ -558,18 +568,21 @@ ggplot(data = starwars,
 Which bar plot is a more useful representation for visualizing the relationship between gender and hair color?
 ]
 
-```{r echo=FALSE, out.width="50%"}
+.pull-left[
+```{r echo=FALSE, out.width="100%"}
 ggplot(data = starwars, mapping = aes(x = gender, fill = hair_color2)) +
   geom_bar() +
   coord_flip()
 ```
-
-```{r echo=FALSE, out.width="50%"}
+]
+.pull-right[
+```{r echo=FALSE, out.width="100%"}
 ggplot(data = starwars, mapping = aes(x = gender, fill = hair_color2)) +
   geom_bar(position = "fill") +
   coord_flip() +
   labs(y = "proportion")
 ```
+]
 
 ---
 

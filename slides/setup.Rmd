@@ -34,7 +34,7 @@ layout: true
   
 <div class="my-footer">
 <span>
-<a href="https://rstd.io/bootcamper" target="_blank">rstd.io/bootcamper</a>
+<a href="http://bit.ly/bootcamp-nuigalway" target="_blank">bit.ly/bootcamp-nuigalway</a>
 </span>
 </div> 
 
