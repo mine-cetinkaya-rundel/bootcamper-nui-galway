@@ -34,6 +34,11 @@ Prepare for the next day by recapping what you’ve learned so far:
 | 10:45 - 11:00 | ☕ Coffee break                                                                                                                   |
 | 11:00 - 12:30 | [Wrangle data](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/03-wrangle-data/03-wrangle-data.html), Pt. 2 |
 
+-   Complete the tutorial on road traffic accidents
+    [here](https://minecr.shinyapps.io/dsbox-02-accidents/)
+-   Complete the tutorial on college majors
+    [here](https://minecr.shinyapps.io/dsbox-03-collegemajors/)
+
 ### Day 3
 
 | Time          | Activity                                                                                                         |
