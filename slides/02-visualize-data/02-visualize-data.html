@@ -674,7 +674,7 @@ Time to actually play around with the Star Wars dataset!
 - Open the R Markdown document and complete the exercise (and if time allows, the stretch goal exercise).
 ]
 
-<div class="countdown" id="timer_5f4e063c" style="right:0;bottom:0;" data-warnwhen="0">
+<div class="countdown" id="timer_5f4e2b49" style="right:0;bottom:0;" data-warnwhen="0">
 <code class="countdown-time"><span class="countdown-digits minutes">10</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 
@@ -857,7 +857,7 @@ Using the `fct_other()` function from the **forcats** package, which is also par
 starwars &lt;- starwars %&gt;%
   mutate(hair_color2 = 
            fct_other(hair_color, 
-                     keep = c("black", "brown", "brown", "blond")
+                     keep = c("black", "brown", "blond")
                      )
          )
 ```

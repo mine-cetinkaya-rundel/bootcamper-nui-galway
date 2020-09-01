@@ -748,7 +748,7 @@ Using the `fct_other()` function from the **forcats** package, which is also par
 starwars <- starwars %>%
   mutate(hair_color2 = 
            fct_other(hair_color, 
-                     keep = c("black", "brown", "brown", "blond")
+                     keep = c("black", "brown", "blond")
                      )
          )
 ```
