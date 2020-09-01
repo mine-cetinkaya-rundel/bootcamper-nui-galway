@@ -22,7 +22,7 @@ Schedule
 Prepare for the next day by recapping what you’ve learned so far:
 
 -   Complete the tutorial
-    [here](https://minecr.shinyapps.io/dsbox-01-basics)
+    [here](https://minecr.shinyapps.io/dsbox-01-edibnb/)
 -   Complete `AE 02 - Bechdel + R Markdown` on RStudio Cloud
     [here](https://rstd.io/dsbox-cloud)
 
