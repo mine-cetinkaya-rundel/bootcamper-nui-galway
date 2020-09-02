@@ -47,6 +47,9 @@ Prepare for the next day by recapping what you’ve learned so far:
 | 10:45 - 11:00 | ☕ Coffee break                                                                                                   |
 | 11:00 - 12:30 | [Tidy data](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/05-tidy-data/05-tidy-data.html) |
 
+-   Complete the tutorial on bike share data
+    [here](https://minecr.shinyapps.io/dsbox-06-dcbikeshare/)
+
 ### Day 4
 
 | Time          | Activity                                                                                                               |
