@@ -431,7 +431,7 @@ countdown(minutes = 15)
 fisheries <- fisheries %>%
   mutate(aquaculture_perc = aquaculture / total)
 
-fisheries_summary <- fisheries %>%
+fisheries_summary_continent <- fisheries %>%
   group_by(continent) %>%
   summarise(
     min_ap  = min(aquaculture_perc),
@@ -443,7 +443,7 @@ fisheries_summary <- fisheries %>%
 ## Visualize continent summary stats
 
 ```{r out.width="80%"}
-ggplot(fisheries_summary, aes(x = continent, y = mean_ap)) +
+ggplot(fisheries_summary_continent, aes(x = continent, y = mean_ap)) +
   geom_col()
 ```
 
@@ -452,7 +452,7 @@ ggplot(fisheries_summary, aes(x = continent, y = mean_ap)) +
 ## Improve visualization
 
 ```{r out.width="80%"}
-ggplot(fisheries_summary, 
+ggplot(fisheries_summary_continent, 
        aes(x = fct_reorder(continent, mean_ap), y = mean_ap)) + #<<
   geom_col()
 ```
@@ -462,7 +462,7 @@ ggplot(fisheries_summary,
 ## Improve visualization further
 
 ```{r eval=FALSE}
-ggplot(fisheries_summary, 
+ggplot(fisheries_summary_continent, 
        aes(y = fct_reorder(continent, mean_ap), x = mean_ap)) +
   geom_col() +
   scale_x_continuous(labels = label_percent(accuracy = 1)) + #<<
@@ -481,7 +481,7 @@ $\rightarrow$ See next slide...
 ---
 
 ```{r echo=FALSE}
-ggplot(fisheries_summary, 
+ggplot(fisheries_summary_continent, 
        aes(y = fct_reorder(continent, mean_ap), x = mean_ap)) +
   geom_col() +
   scale_x_continuous(labels = label_percent(accuracy = 1)) +

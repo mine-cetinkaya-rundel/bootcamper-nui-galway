@@ -615,7 +615,7 @@ fisheries %&gt;%
 - Knit the document and work on the Exercise 1.
 ]
 
-<div class="countdown" id="timer_5f500f4d" style="right:0;bottom:0;" data-warnwhen="0">
+<div class="countdown" id="timer_5f50b918" style="right:0;bottom:0;" data-warnwhen="0">
 <code class="countdown-time"><span class="countdown-digits minutes">05</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 
@@ -626,7 +626,7 @@ fisheries %&gt;%
 - Knit the document and work on the Exercises 2 - 4.
 ]
 
-<div class="countdown" id="timer_5f500f04" style="right:0;bottom:0;" data-warnwhen="0">
+<div class="countdown" id="timer_5f50b8a0" style="right:0;bottom:0;" data-warnwhen="0">
 <code class="countdown-time"><span class="countdown-digits minutes">15</span><span class="countdown-digits colon">:</span><span class="countdown-digits seconds">00</span></code>
 </div>
 
@@ -638,7 +638,7 @@ fisheries %&gt;%
 
 
 ```r
-ggplot(fisheries_summary, aes(x = continent, y = mean_ap)) +
+ggplot(fisheries_summary_continent, aes(x = continent, y = mean_ap)) +
   geom_col()
 ```
 
@@ -650,7 +650,7 @@ ggplot(fisheries_summary, aes(x = continent, y = mean_ap)) +
 
 
 ```r
-ggplot(fisheries_summary, 
+ggplot(fisheries_summary_continent, 
 *      aes(x = fct_reorder(continent, mean_ap), y = mean_ap)) +
   geom_col()
 ```
@@ -663,7 +663,7 @@ ggplot(fisheries_summary,
 
 
 ```r
-ggplot(fisheries_summary, 
+ggplot(fisheries_summary_continent, 
        aes(y = fct_reorder(continent, mean_ap), x = mean_ap)) +
   geom_col() +
 * scale_x_continuous(labels = label_percent(accuracy = 1)) +
