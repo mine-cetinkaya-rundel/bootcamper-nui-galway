@@ -665,6 +665,9 @@ include_graphics("img/forcats-part-of-tidyverse.png")
 library(scales)
 hotels <- readr::read_csv("https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2020/2020-02-11/hotels.csv")
 hotels %>%
+  mutate(
+    arrival_date_month = fct_relevel(arrival_date_month, "January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December")
+  ) %>%
   group_by(hotel, arrival_date_month) %>%   # group by hotel type and arrival month
   summarise(mean_adr = mean(adr)) %>%       # calculate mean_adr for each group
   ggplot(aes(
