@@ -288,6 +288,10 @@ typeof(c(1, "a"))
 ]
 ]
 
+```{r echo=FALSE}
+countdown(minutes = 10)
+```
+
 ---
 
 ## Example: Cat lovers
@@ -677,6 +681,10 @@ hotels %>%
        title = "Comparison of resort and city hotel prices across months",
        subtitle = "Resort hotel prices soar in the summer while city hotel prices remain\nrelatively constant throughout the year",
        color = "Hotel type")
+```
+
+```{r echo=FALSE}
+countdown(minutes = 15)
 ```
 
 ---
