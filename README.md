@@ -13,78 +13,11 @@ Schedule
 
 ### Day 1
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;">
-<p>
-Time
-</p>
-<p>
-</p>
-</th>
-<th style="text-align: left;">
-<p>
-Activity
-</p>
-<p>
-</p>
-</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">
-<p>
-09:30 - 10:30
-</p>
-<p>
-</p>
-</td>
-<td style="text-align: left;">
-<p>
-<a href="https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/01-whole-game/01-whole-game.html">The
-whole game</a>
-</p>
-<p>
-</p>
-</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">
-<p>
-10:30 - 10:45
-</p>
-<p>
-</p>
-</td>
-<td style="text-align: left;">
-<p>
-<code>r emo::ji(“coffee”)</code> Coffee break
-</p>
-<p>
-</p>
-</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">
-<p>
-10:45 - 12:30
-</p>
-<p>
-</p>
-</td>
-<td style="text-align: left;">
-<p>
-<a href="https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/02-visualize-data/02-visualize-data.html">Visualize
-data</a>
-</p>
-<p>
-</p>
-</td>
-</tr>
-</tbody>
-</table>
+| Time          | Activity                                                                                                                        |
+|:--------------|:--------------------------------------------------------------------------------------------------------------------------------|
+| 09:30 - 10:45 | [The whole game](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/01-whole-game/01-whole-game.html)         |
+| 10:45 - 11:00 | ☕ Coffee break                                                                                                                  |
+| 11:00 - 12:30 | [Visualize data](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/02-visualize-data/02-visualize-data.html) |
 
 Prepare for the next day by recapping what you’ve learned so far:
 
@@ -95,78 +28,11 @@ Prepare for the next day by recapping what you’ve learned so far:
 
 ### Day 2
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;">
-<p>
-Time
-</p>
-<p>
-</p>
-</th>
-<th style="text-align: left;">
-<p>
-Activity
-</p>
-<p>
-</p>
-</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">
-<p>
-09:30 - 10:45
-</p>
-<p>
-</p>
-</td>
-<td style="text-align: left;">
-<p>
-<a href="https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/03-wrangle-data/03-wrangle-data.html">Wrangle
-data</a>, Pt. 1
-</p>
-<p>
-</p>
-</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">
-<p>
-10:45 - 11:00
-</p>
-<p>
-</p>
-</td>
-<td style="text-align: left;">
-<p>
-<code>r emo::ji(“coffee”)</code> Coffee break
-</p>
-<p>
-</p>
-</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">
-<p>
-11:00 - 12:30
-</p>
-<p>
-</p>
-</td>
-<td style="text-align: left;">
-<p>
-<a href="https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/03-wrangle-data/03-wrangle-data.html">Wrangle
-data</a>, Pt. 2
-</p>
-<p>
-</p>
-</td>
-</tr>
-</tbody>
-</table>
+| Time          | Activity                                                                                                                         |
+|:--------------|:---------------------------------------------------------------------------------------------------------------------------------|
+| 09:30 - 10:45 | [Wrangle data, Pt. 1](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/03-wrangle-data/03-wrangle-data.html) |
+| 10:45 - 11:00 | ☕ Coffee break                                                                                                                   |
+| 11:00 - 12:30 | [Wrangle data, Pt. 2](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/03-wrangle-data/03-wrangle-data.html) |
 
 -   Complete the tutorial on road traffic accidents
     [here](https://minecr.shinyapps.io/dsbox-02-accidents/)
@@ -175,153 +41,19 @@ data</a>, Pt. 2
 
 ### Day 3
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;">
-<p>
-Time
-</p>
-<p>
-</p>
-</th>
-<th style="text-align: left;">
-<p>
-Activity
-</p>
-<p>
-</p>
-</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">
-<p>
-09:30 - 10:45
-</p>
-<p>
-</p>
-</td>
-<td style="text-align: left;">
-<p>
-<a href="https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/04-join-data/04-join-data.html">Join
-data</a>
-</p>
-<p>
-</p>
-</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">
-<p>
-10:45 - 11:00
-</p>
-<p>
-</p>
-</td>
-<td style="text-align: left;">
-<p>
-<code>r emo::ji(“coffee”)</code> Coffee break
-</p>
-<p>
-</p>
-</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">
-<p>
-11:00 - 12:30
-</p>
-<p>
-</p>
-</td>
-<td style="text-align: left;">
-<p>
-<a href="https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/05-tidy-data/05-tidy-data.html">Tidy
-data</a>
-</p>
-<p>
-</p>
-</td>
-</tr>
-</tbody>
-</table>
+| Time          | Activity                                                                                                         |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------|
+| 09:30 - 10:45 | [Join data](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/04-join-data/04-join-data.html) |
+| 10:45 - 11:00 | ☕ Coffee break                                                                                                   |
+| 11:00 - 12:30 | [Tidy data](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/05-tidy-data/05-tidy-data.html) |
 
 -   Complete the tutorial on bike share data
     [here](https://minecr.shinyapps.io/dsbox-06-dcbikeshare/)
 
 ### Day 4
 
-<table>
-<thead>
-<tr class="header">
-<th style="text-align: left;">
-<p>
-Time
-</p>
-<p>
-</p>
-</th>
-<th style="text-align: left;">
-<p>
-Activity
-</p>
-<p>
-</p>
-</th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td style="text-align: left;">
-<p>
-09:30 - 10:45
-</p>
-<p>
-</p>
-</td>
-<td style="text-align: left;">
-<p>
-<a href="https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/06-data-types/06-data-types.html">Data
-types</a>
-</p>
-<p>
-</p>
-</td>
-</tr>
-<tr class="even">
-<td style="text-align: left;">
-<p>
-10:45 - 11:00
-</p>
-<p>
-</p>
-</td>
-<td style="text-align: left;">
-<p>
-<code>r emo::ji(“coffee”)</code> Coffee break
-</p>
-<p>
-</p>
-</td>
-</tr>
-<tr class="odd">
-<td style="text-align: left;">
-<p>
-11:00 - 12:30
-</p>
-<p>
-</p>
-</td>
-<td style="text-align: left;">
-<p>
-<a href="https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/07-import-data/07-import-data.html">Import
-data</a>
-</p>
-<p>
-</p>
-</td>
-</tr>
-</tbody>
-</table>
+| Time          | Activity                                                                                                               |
+|:--------------|:-----------------------------------------------------------------------------------------------------------------------|
+| 09:30 - 10:45 | [Data types](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/06-data-types/06-data-types.html)    |
+| 10:45 - 11:00 | ☕ Coffee break                                                                                                         |
+| 11:00 - 12:30 | [Import data](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/07-import-data/07-import-data.html) |
