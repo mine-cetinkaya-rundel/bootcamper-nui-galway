@@ -57,3 +57,9 @@ Prepare for the next day by recapping what you’ve learned so far:
 | 09:30 - 10:45 | [Data types](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/06-data-types/06-data-types.html)    |
 | 10:45 - 11:00 | ☕ Coffee break                                                                                                         |
 | 11:00 - 12:30 | [Import data](https://mine-cetinkaya-rundel.github.io/bootcamper-nui-galway/slides/07-import-data/07-import-data.html) |
+
+License
+-------
+
+Note that all materials are released with [Creative Commons Attribution
+Share Alike 4.0 International](LICENSE.md) license.
